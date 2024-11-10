@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOO HBD</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js/dist/fireworks.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="greeting" class="fade-in">Letter for you</h1>
+        <!-- Initially hidden image -->
+        <img src="birthday_cake.gif" alt="Birthday Cake" class="cake hidden">
+    
+        <button id="surpriseButton">CLICK ME YOOO!!</button>
+        <div id="messagesContainer">
+            <div class="message-container">
+                <p class="message hidden slide-in"> Happy Birthday! 🎉🎂</p>
+                <p class="message hidden slide-in">I wanted to take a moment to wish you all the joy and excitement on this </p>
+                <p class="message hidden slide-in">special day. It's been such a pleasure getting to know you, and I'm grateful for </p>
+                <p class="message hidden slide-in">the friendship we've begun to build. Here's to many more shared laughs,</p>
+                <p class="message hidden slide-in">conversations, and memories ahead.</p><br>
+
+                <p class="message hidden slide-in">May this birthday mark the start of a fantastic year filled with love, success, and </p>
+                <p class="message hidden slide-in">endless happiness. Enjoy every moment, and know that I'm here to celebrate </p>
+                <p class="message hidden slide-in">with you! </p></br>  
+                <p class="message hidden slide-in">Warmest wishes, </p><br>
+                <p class="message hidden slide-in">(chael) </p>
+            </div>
+            <!-- Add more message containers as needed -->
+        </div>
+        <audio id="birthdaySong" src="birthday_song.mp3"></audio>
+        <!-- Empty div to hold the dynamically added images -->
+        <div id="imageContainer"></div>
+    </div>
+    
+    <canvas id="fireworksCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
